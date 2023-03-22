@@ -1,18 +1,20 @@
 {
-  "name": "cli-yt-download",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@rogeliolb/cli-yt-converter",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "cli-yt-download": "index.js"
+  },
   "keywords": [],
-  "author": "",
+  "author": "RogelioLB",
   "license": "ISC",
   "dependencies": {
     "commander": "^10.0.0",
     "prompt": "^1.3.0",
-    "yt-converter": "^1.3.2"
+    "yt-converter": "^1.3.3"
   },
   "devDependencies": {
     "eslint": "^8.36.0",
@@ -20,5 +22,6 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.6.1",
     "eslint-plugin-promise": "^6.1.1"
-  }
+  },
+  "description": ""
 }
